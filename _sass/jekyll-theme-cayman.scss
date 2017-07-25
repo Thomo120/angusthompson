@@ -1,6 +1,7 @@
 // Import base framework
 @import "framework/normalize";
 @import "framework/framework";
+@import "icons";
 
 #header {
   padding: 1.5rem 0;
@@ -39,18 +40,28 @@
   }
 }
 
-#home, #contact .cta {
+#home {
   padding-top: 8%;
   padding-bottom: 8%;
   background-color: $primary-color;
 }
 
-#home *, #contact .cta * {
+#home * {
   color: #fff;
 }
 
 #contact {
   text-align: center;
+}
+
+#contact .cta {
+  padding-top: 6%;
+  padding-bottom: 6%;
+  background-color: $primary-color;
+}
+
+#contact .cta * {
+  color: #fff;
 }
 
 #contact .cta .column {
