@@ -23,14 +23,12 @@
 
 #header ul.nav > li > a {
   font-size: 2.0rem;
+  font-weight: 500;
   color: $primary-color;
-  transition: opacity .2s linear;
-  -moz-transition: opacity .2s linear;
-  -webkit-transition: opacity .2s linear;
 }
 
 #header ul.nav > li > a:hover {
-  opacity: 0.8;
+  font-weight: 300;
 }
 
 @media (min-width: 40rem) {
