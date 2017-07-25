@@ -2,6 +2,41 @@
 @import "framework/normalize";
 @import "framework/framework";
 
+#header ul.nav {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  -ms-flex-align: center;
+  margin-bottom: 0;
+  list-style: none;
+}
+
+#header ul.nav > li {
+  display: inline-block;
+  margin-bottom: 0;
+}
+
+#header ul.nav > li > a {
+  font-size: 2.0rem;
+  color: $primary-color;
+  transition: opacity .2s linear;
+  -moz-transition: opacity .2s linear;
+  -webkit-transition: opacity .2s linear;
+}
+
+#header ul.nav > li > a:hover {
+  opacity: 0.8;
+}
+
+@media (min-width: 40rem) {
+  #header ul.nav {
+    width: 33.33%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
 #home {
   padding-top: 8%;
   padding-bottom: 8%;
