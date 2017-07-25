@@ -3,7 +3,7 @@ layout: default
 title: Angus Thompson - Multimedia Professional
 ---
 
-<section id="home">
+<section id="intro">
   <div class="container">
     <div class="row">
       <div class="column">
