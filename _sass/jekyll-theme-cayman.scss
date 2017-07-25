@@ -39,11 +39,11 @@
   }
 }
 
-#home {
+#home, #contact .cta {
   padding-top: 8%;
   padding-bottom: 8%;
   background-color: $primary-color;
 }
-#home * {
+#home *, #contact .cta * {
   color: #fff;
 }
