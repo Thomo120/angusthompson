@@ -10,7 +10,13 @@ $body-font: 'Roboto', 'Helvetica Neue', 'Helvetica', 'Arial', sans-serif;
   box-sizing: inherit;
 }
 
+html, body {
+	height: 100%;
+}
+
 html {
+  overflow-x: hidden;
+  max-width: 100%;
   box-sizing: border-box;
   font-size: 62.5%;
 }
@@ -22,6 +28,17 @@ body {
   font-weight: 300;
   letter-spacing: .01em;
   line-height: 1.6;
+  -webkit-font-smoothing: antialiased;
+}
+
+::-moz-selection {
+	background-color: $primary-color;
+	color: #fff;
+}
+
+::selection {
+	background-color: $primary-color;
+	color: #fff;
 }
 
 @media (max-width: 40rem) {
