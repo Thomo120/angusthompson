@@ -1,3 +1,3 @@
-theme: angus-thompson
+theme: jekyll-theme-cayman
 gems:
   - jekyll-seo-tag
