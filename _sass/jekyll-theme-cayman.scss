@@ -44,6 +44,9 @@
   padding-top: 8%;
   padding-bottom: 8%;
   background-color: $primary-color;
+  background-image: url(../img/office-shot.jpg);
+  background-size: cover;
+  background-position: center center;
 }
 
 #home * {
@@ -64,7 +67,10 @@
   color: #fff;
 }
 
-#contact .cta .column {
-  margin-left: auto;
-  margin-right: auto;
+@media (min-width: 40rem) {
+  #contact .cta .column {
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+  }
 }
