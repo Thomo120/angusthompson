@@ -176,6 +176,27 @@ input[type='submit'].button-clear:hover {
   color: $body-color;
 }
 
+.button.button-clear::after,
+button.button-clear::after,
+input[type='button'].button-clear::after,
+input[type='reset'].button-clear::after,
+input[type='submit'].button-clear::after {
+  border-bottom: 1px solid;
+  padding-bottom: 1.8rem;
+}
+
+.button.button-clear:focus::after, .button.button-clear:hover::after,
+button.button-clear:focus::after,
+button.button-clear:hover::after,
+input[type='button'].button-clear:focus::after,
+input[type='button'].button-clear:hover::after,
+input[type='reset'].button-clear:focus::after,
+input[type='reset'].button-clear:hover::after,
+input[type='submit'].button-clear:focus::after,
+input[type='submit'].button-clear:hover::after {
+  padding-bottom: 1.0rem;
+}
+
 .button.button-clear[disabled]:focus, .button.button-clear[disabled]:hover,
 button.button-clear[disabled]:focus,
 button.button-clear[disabled]:hover,
