@@ -79,6 +79,10 @@
   color: #fff;
 }
 
+#contact .cta a.button > i {
+  margin-right: 1rem;
+}
+
 @media (min-width: 40rem) {
   #contact .cta .container {
     width: 50%;
@@ -88,5 +92,9 @@
 @media (max-width: 40rem) {
     #intro {
       text-align: center;
+    }
+    #contact .cta a.button > i {
+      display: none;
+      margin-right: 0.5rem;
     }
 }
