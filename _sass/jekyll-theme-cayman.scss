@@ -2,6 +2,10 @@
 @import "framework/normalize";
 @import "framework/framework";
 
+#header {
+  padding: 1.5rem 0;
+}
+
 #header ul.nav {
   display: -ms-flexbox;
   display: flex;
