@@ -1,3 +1,12 @@
 // Import base framework
 @import "framework/normalize";
 @import "framework/framework";
+
+#home {
+  padding-top: 8%;
+  padding-bottom: 8%;
+  background-color: $primary-color;
+}
+#home * {
+  color: #fff;
+}
