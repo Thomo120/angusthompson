@@ -218,6 +218,17 @@ input[type='submit'].button-clear[disabled]:hover {
   color: $primary-color;
 }
 
+@media (max-width: 40rem) {
+  .button,
+  button,
+  input[type='button'],
+  input[type='reset'],
+  input[type='submit'] {
+    display: block;
+    width: 100%;
+  }
+}
+
 code {
   background: #f4f5f6;
   border-radius: .4rem;
