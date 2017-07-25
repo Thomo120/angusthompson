@@ -40,7 +40,7 @@
   }
 }
 
-#home {
+#intro {
   position: relative;
   padding-top: 8%;
   padding-bottom: 8%;
@@ -50,11 +50,11 @@
   background-position: center center;
 }
 
-#home * {
+#intro * {
   color: #fff;
 }
 
-#home::before {
+#intro::before {
     content: '';
     position: absolute;
     width: 100%;
