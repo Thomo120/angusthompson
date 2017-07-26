@@ -5,6 +5,16 @@
   font-weight: normal;
   font-style: normal;
 }
+@font-face {
+  font-family: 'icomoon';
+  src:  url('../fonts/icomoon.eot?23zd34');
+  src:  url('../fonts/icomoon.eot?23zd34#iefix') format('embedded-opentype'),
+    url('../fonts/icomoon.ttf?23zd34') format('truetype'),
+    url('../fonts/icomoon.woff?23zd34') format('woff'),
+    url('../fonts/icomoon.svg?23zd34#icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
 /*
  Use the following CSS code if you want to have a class per icon.
  Instead of a list of all class selectors, you can use the generic [class*="icon-"] selector, but it's slower:
@@ -775,4 +785,7 @@
 }
 .icon-social-steam:before {
   content: "\e620";
+}
+.icon-code:before {
+  content: "\f121";
 }

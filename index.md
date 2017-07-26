@@ -23,7 +23,7 @@ title: Angus Thompson - Multimedia Professional
         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce tristique blandit est, eget tincidunt ipsum lacinia vitae. Nunc at vehicula nisi. Proin placerat, enim vitae blandit fermentum, metus felis aliquet orci, ut aliquam lacus ipsum id velit.</p>
       </div>
       <div class="column">
-        <div class="icon"><i class="icon-arrow-left"></i><span>/</span><i class="icon-arrow-right"></i></div>
+        <i class="icon-code"></i>
         <h4>Website Developer</h4>
         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce tristique blandit est, eget tincidunt ipsum lacinia vitae. Nunc at vehicula nisi. Proin placerat, enim vitae blandit fermentum, metus felis aliquet orci, ut aliquam lacus ipsum id velit.</p>
       </div>
