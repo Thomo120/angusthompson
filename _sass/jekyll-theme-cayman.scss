@@ -88,27 +88,6 @@
   vertical-align: middle;
 }
 
-#about .icon {
-  display: inline-block;
-  margin-bottom: 3.4rem;
-  vertical-align: middle;
-}
-
-#about .icon > i {
-  display: initial;
-  font-size: 4rem;
-  vertical-align: middle;
-  margin-bottom: 0;
-}
-
-#about .icon > span {
-  font-size: 6.3rem;
-  font-weight: 100;
-  line-height: 1;
-  color: $primary-color;
-  vertical-align: middle;
-}
-
 #contact {
   text-align: center;
 }
@@ -176,14 +155,19 @@
     #intro {
       text-align: center;
     }
-    #about .row {
-      padding-bottom: 0;
-    }
     #about .column {
       padding-bottom: 5%;
     }
     #about .column:last-child {
       padding-bottom: 0;
+    }
+    #about h4 {
+      margin-left: 1.5rem;
+      margin-bottom: 1.5rem;
+    }
+    #about i {
+      font-size: 5rem;
+      margin-bottom: 1.5rem;
     }
     #contact .cta a.button > i {
       display: none;
