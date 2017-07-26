@@ -83,9 +83,48 @@
   margin-right: 1rem;
 }
 
+#contact .social {
+  padding-top: 5.0rem;
+  padding-bottom: 2.0rem;
+}
+
+#contact .social > ul {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  -ms-flex-align: center;
+  margin-bottom: 0;
+  list-style: none;
+}
+
+#contact .social ul > li {
+  display: inline-block;
+  margin-right: 10px;
+  margin-bottom: 0;
+}
+
+#contact .social ul > li:last-child {
+  margin-right: 0;
+}
+
+#contact .social ul > li > a {
+    font-size: 2.4rem;
+}
+
+#contact .copyright {
+  padding-bottom: 6.0rem;
+  font-size: 1.6rem;
+}
+
 @media (min-width: 40rem) {
   #contact .cta .container {
     width: 50%;
+  }
+  #contact .social > ul {
+    width: 33.33%;
+    margin-left: auto;
+    margin-right: auto;
   }
 }
 
