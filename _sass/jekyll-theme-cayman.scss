@@ -73,15 +73,25 @@
   padding-bottom: 0;
 }
 
-#about i {
-  display: block;
-  font-size: 6rem;
-  color: $primary-color;
+#about h4 {
+  display: inline-block;
+  margin-left: 2.0rem;
+  vertical-align: middle;
   margin-bottom: 3.4rem;
 }
 
-#about .icon {
+#about i {
+  display: inline-block;
+  font-size: 6rem;
+  color: $primary-color;
   margin-bottom: 3.4rem;
+  vertical-align: middle;
+}
+
+#about .icon {
+  display: inline-block;
+  margin-bottom: 3.4rem;
+  vertical-align: middle;
 }
 
 #about .icon > i {
