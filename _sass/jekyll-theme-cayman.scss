@@ -65,6 +65,19 @@
   padding-bottom: 8%;
 }
 
+#about .row {
+  padding-bottom: 5%;
+}
+
+#about .row:last-child {
+  padding-bottom: 0;
+}
+
+#about i {
+  font-size: 4.3rem;
+  color: $primary-color;
+}
+
 #contact {
   text-align: center;
 }
@@ -131,6 +144,15 @@
 @media (max-width: 40rem) {
     #intro {
       text-align: center;
+    }
+    #about .row {
+      padding-bottom: 0;
+    }
+    #about .column {
+      padding-bottom: 5%;
+    }
+    #about .column:last-child {
+      padding-bottom: 0;
     }
     #contact .cta a.button > i {
       display: none;
