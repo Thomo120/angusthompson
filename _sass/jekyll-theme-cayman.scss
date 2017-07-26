@@ -25,11 +25,6 @@
 #header ul.nav > li > a {
   font-size: 2.0rem;
   font-weight: 400;
-  color: $primary-color;
-}
-
-#header ul.nav > li > a:hover {
-  font-style: italic;
 }
 
 @media (min-width: 40rem) {
@@ -63,6 +58,11 @@
     left: 0;
     background-color: #0E49FB;
     opacity: 0.85;
+}
+
+#about {
+  padding-top: 8%;
+  padding-bottom: 8%;
 }
 
 #contact {
