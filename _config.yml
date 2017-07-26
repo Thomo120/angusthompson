@@ -2,4 +2,3 @@ theme: jekyll-theme-cayman
 
 title: Angus Thompson
 description: Angus is a Multimedia Professional of over 5+ years experience. He loves Jesus, his fiancé and life.
-image: "{{ '/assets/img/featured-image.png' | relative_url }}"
