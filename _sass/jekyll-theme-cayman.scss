@@ -74,8 +74,29 @@
 }
 
 #about i {
-  font-size: 4.3rem;
+  display: block;
+  font-size: 6rem;
   color: $primary-color;
+  margin-bottom: 3.4rem;
+}
+
+#about .icon {
+  margin-bottom: 3.4rem;
+}
+
+#about .icon > i {
+  display: initial;
+  font-size: 4rem;
+  vertical-align: middle;
+  margin-bottom: 0;
+}
+
+#about .icon > span {
+  font-size: 6.3rem;
+  font-weight: 100;
+  line-height: 1;
+  color: $primary-color;
+  vertical-align: middle;
 }
 
 #contact {
