@@ -1,0 +1,24 @@
+{
+  "private": true,
+  "scripts": {
+    "dev": "next",
+    "build": "next build",
+    "export": "next export",
+    "start": "next start",
+    "deploy": "next build && next start --production"
+  },
+  "dependencies": {
+    "@emotion/react": "latest",
+    "@emotion/styled": "latest",
+    "next": "latest",
+    "sass": "latest",
+    "react": "latest",
+    "react-dom": "latest"
+  },
+  "devDependencies": {
+    "autoprefixer": "10.4.2",
+    "eslint": "8.14.0",
+    "eslint-config-next": "12.1.5",
+    "postcss": "8.4.5"
+  }
+}

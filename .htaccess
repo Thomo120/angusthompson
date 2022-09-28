@@ -1,0 +1,12 @@
+<IfModule mod_rewrite.c>
+    DirectoryIndex disabled
+    RewriteEngine on
+    
+    # setup https #
+    RewriteCond %{HTTPS} !=on
+    RewriteRule ^(.*)$ https://%{HTTP_HOST}%{REQUEST_URI} [L,R=301,NE]
+    
+    # next.js app redirect #
+    RewriteCond %{SERVER_PORT}  !^3000$
+    RewriteRule (.*) http://%{HTTP_HOST}:3000%{REQUEST_URI} [P]
+</IfModule>
