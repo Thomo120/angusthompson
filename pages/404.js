@@ -14,13 +14,13 @@ const NotFound = () => {
                 <Container>
                     <StyledContainer>
                         <Typography variant="h1" color="primary" align="center">404</Typography>
-                        <Typography variant="h2" component="h1" style={{color: '#fff'}}>
+                        <Typography variant="h2" component="h1">
                             Our apologies.<br />We're unable to find the page you're looking for.
                         </Typography>
-                        <Typography style={{color: '#fff'}}>
+                        <Typography>
                             404. Page not found.
                         </Typography>
-                        <Button to="/" variant="clear" text="Return Home" style={{marginTop: '4rem'}} />
+                        <Button to="/" variant="outlined" text="Return Home" style={{marginTop: '4rem'}} />
                     </StyledContainer>
                 </Container>
             </StyledInner>
@@ -49,7 +49,6 @@ const StyledContainer = styled.div`
 width: 100%;
 max-width: 67rem;
 margin: 0 auto;
-color: #fff;
 
 svg {
     width: 15rem;
