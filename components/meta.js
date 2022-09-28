@@ -17,10 +17,10 @@ export default function Meta() {
       <meta httpEquiv="Content-Type" content="text/html; charset=UTF-8" />
       <meta httpEquiv="X-UA-Compatible" content="IE=edge" />
       <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=5" />
-      <link rel="shortcut icon" href="/images/favicon.png" />
+      {/*<link rel="shortcut icon" href="/images/favicon.png" />
       <link rel="apple-touch-icon" href="/images/apple-touch-icon.png" />
       <link rel="apple-touch-icon" sizes="72x72" href="/images/apple-touch-icon-72x72.png" />
-      <link rel="apple-touch-icon" sizes="114x114" href="/images/apple-touch-icon-114x114.png" />
+  <link rel="apple-touch-icon" sizes="114x114" href="/images/apple-touch-icon-114x114.png" />*/}
       <link rel="canonical" href={`${theme.siteDetails.url + url}`} />
       <meta property="og:url" content={`${theme.siteDetails.url + url}`} />
       <meta property="og:site_name" content={`${theme.siteDetails.title}`} />
