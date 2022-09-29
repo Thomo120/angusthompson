@@ -7,10 +7,10 @@ import Column from '@/components/column'
 import Button from '@/components/button'
 import Box from '@/components/box'
 import Typography from '@/components/typography'
-import Link from 'next/link'
 import Image from '@/components/image'
 import WorkElement from '@/components/work-element'
 import styled from '@emotion/styled'
+import Footer from '@/components/footer'
 
 export default function Index() {
 
@@ -104,20 +104,7 @@ export default function Index() {
                     </Column>
                 </Row>
             </Section>
-            <Section id="contact" variant='contained' paddingTop="10vw" paddingBottom="10vw" style={{color:"#fff"}}>
-                <Typography variant="h5" component="div" align="center" color="#fff" marginless>
-                    Get in touch
-                </Typography>
-                <Typography variant="h2" align="center" color="#fff">
-                    <Link href="mailto:angus@eggcellentstudio.com">
-                        <a style={{color:'inherit'}}>angus@eggcellentstudio.com</a>
-                    </Link>
-                </Typography>
-                <div style={{marginTop: '4rem',textAlign:'center'}}>
-                    <Button to={theme.socialMedia.website} text='Website' variant='clear' target="_blank" icon />
-                    <Button to={theme.socialMedia.linkedin} text='LinkedIn' variant='clear' target="_blank" icon />
-                </div>
-            </Section>
+            <Footer />
         </Layout>
     )
 }
