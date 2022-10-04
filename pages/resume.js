@@ -10,8 +10,8 @@ import styled from '@emotion/styled'
 import Footer from '@/components/footer'
 
 export default function Resume({linkedin}) {
-    const title = theme.siteDetails.seoTitle
-    const slogan = theme.siteDetails.slogan
+    const title = 'Resume'
+    const slogan = theme.siteDetails.seoTitle
 
     const basics = linkedin.basics
     const education = linkedin.education
