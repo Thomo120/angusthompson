@@ -13,7 +13,8 @@
     "next": "latest",
     "sass": "latest",
     "react": "latest",
-    "react-dom": "latest"
+    "react-dom": "latest",
+    "swiper": "latest"
   },
   "devDependencies": {
     "autoprefixer": "10.4.2",

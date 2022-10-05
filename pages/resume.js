@@ -8,6 +8,8 @@ import Typography from '@/components/typography'
 import Image from '@/components/image'
 import styled from '@emotion/styled'
 import Footer from '@/components/footer'
+import { Description } from '@/lib/constants'
+import Divider from '@/components/divider'
 
 export default function Resume({linkedin}) {
     const title = 'Resume'
@@ -55,10 +57,19 @@ export default function Resume({linkedin}) {
 
     return (
         <Layout>
+            <style>{styles}</style>
             <SEO title={`${title} - ${slogan}`} description={theme.siteDetails.description} />
-            <Section paddingBottom='5rem' paddingTop="5rem" variant='contained'>
-                <Typography variant='h2' component="h1" color="#fff" align="center" marginless>{basics.name}</Typography>
-                <Typography variant='h5' color="#fff" align="center">{basics.label}</Typography>
+            <Section paddingTop="5rem" variant='contained' bg_color="#fff">
+                <StyledHeader>
+                    <div className="portrait">
+                        <Image src='/images/angus-portrait.jpg' alt='Photo of Angus' style={{maxWidth: '30rem',margin:'0 auto'}} />
+                    </div>
+                    <div className="textWrap">
+                        <Typography variant='h2' component="h1" align="center" marginless>{basics.name}</Typography>
+                        <Typography variant='h5' align="center">{basics.label}</Typography>
+                    </div>
+                </StyledHeader>
+                <Divider line_type={"custom_line"} height="1" margin="50" margin_position={'top'} color="rgba(0,0,0,0.1)" />
             </Section>
             <Section paddingBottom='5rem' paddingTop="5rem" variant='contained' bg_color="#fff">
                 <Row>
@@ -91,9 +102,9 @@ export default function Resume({linkedin}) {
                         </div>
                     </Column>
                     <Column md={8}>
-                        <div id='summary'>
+                        <div id='summary' style={{marginBottom:'4rem'}}>
                             <Typography variant="h5">Summary</Typography>
-                            <Typography>{basics.summary}</Typography>
+                            <Typography>{basics.summary ? basics.summary : Description}</Typography>
                         </div>
                         <div id="experience">
                             <Typography variant="h5">Experience</Typography>
@@ -131,6 +142,38 @@ const StyledPill = styled.div`
     margin-bottom: 1rem;
     display: inline-block;
     font-size: 1.6rem;
+
+    @media print {
+        padding: 0;
+        margin-right: 0;
+        margin-bottom: 0;
+
+        &:after {
+            content: ', ';
+        }
+    }
+`
+
+const StyledHeader = styled.div`
+    .portrait {
+        margin: 0 auto;
+        margin-bottom: 2rem;
+        width: 10rem;
+        height: 10rem;
+        overflow: hidden;
+        border-radius: 50%;
+    }
+`
+
+const styles = `
+@media print {
+    html {
+        font-size: 40%;
+    }
+    #footer, .no-print {
+        display: none!important;
+    }
+}
 `
 
 // Fetching data from the JSON file

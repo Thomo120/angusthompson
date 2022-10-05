@@ -11,6 +11,7 @@ import Image from '@/components/image'
 import WorkElement from '@/components/work-element'
 import styled from '@emotion/styled'
 import Footer from '@/components/footer'
+import { Description } from '@/lib/constants'
 
 export default function Index() {
 
@@ -30,7 +31,7 @@ export default function Index() {
                             UI/UX Designer & Developer
                         </Typography>
                         <Typography>
-                            I'm Angus, a full-time UI/UX designer and developer with over ten years' worth of expertise. I specialise in designing and developing simple, attractive, and high-converting web and mobile user experiences. I have worked in Web3 and React and am constantly learning new things to make sure I am providing you with the finest service possible.
+                            {Description}
                         </Typography>
                         <div style={{marginTop: '4rem'}}>
                             <Button to={theme.socialMedia.website} text='Website' variant='clear' target="_blank" icon />
@@ -47,20 +48,20 @@ export default function Index() {
                     Featured work
                 </Typography>
                 <StyledWorkWrapper style={{marginTop: '5rem'}}>
-                    <Column md={6}>
-                        <WorkElement title="Genelle" description="Developed a multilingual marketing site in Next.js, and designed their fitness & meal plans, dashboard and profile management web apps." category="UI/UX Design & Development" />
+                    <Column md={12}>
+                        <WorkElement featured={true} title="Genelle" description="Developed a multilingual marketing site in Next.js, and designed their fitness & meal plans, dashboard and profile management web apps." category="UI/UX Design & Development" link="https://genelle.com/" type="slider" image={["/images/work/genelle.jpg", "/images/work/genelle-mp.jpg", "/images/work/genelle-fp.jpg", "/images/work/genelle-reports.jpg", "/images/work/genelle-profile.jpg"]} />
                     </Column>
                     <Column md={6}>
-                        <WorkElement title="Everything Shiny" description="Designed and developed a marketing site in Next.js with a custom Wordpress backend for bookings and payments." category="UI/UX Design & Development" />
+                        <WorkElement title="Everything Shiny" description="Designed and developed a marketing site in Next.js with a custom Wordpress backend for bookings and payments." category="UI/UX Design & Development" image="/images/work/everythingshiny.jpg" link="https://everythingshiny.com.au/" />
                     </Column>
                     <Column md={6}>
-                        <WorkElement title="Gathering the Remnant 2023" description="Designed and developed a marketing site in Next.js for an event held by a local messianic jewish community on the Gold Coast." category="UI/UX Design & Development" />
+                        <WorkElement title="Gathering the Remnant 2023" description="Designed and developed a marketing site in Next.js for an event held by a local messianic jewish community on the Gold Coast." category="UI/UX Design & Development" image="/images/work/gatheringtheremnant2023.jpg" link="https://gatheringtheremnant2023.com/" />
                     </Column>
                     <Column md={6}>
-                        <WorkElement title="Senserie" description="Designed and developed a custom Wordpress marketing site and designed backend screens to enhance their users' custom pages." category="Website Design & Development" />
+                        <WorkElement title="Senserie" description="Designed and developed a custom Wordpress marketing site and designed backend screens to enhance their users' custom pages." category="Website Design & Development" image="/images/work/senserie.jpg" link="https://senserie.com" />
                     </Column>
                     <Column md={6}>
-                        <WorkElement title="Career Stylr" description="Designed and developed a custom marketing and e-commerce site in Wordpress." category="Website Design & Development" />
+                        <WorkElement title="Career Stylr" description="Designed and developed a custom marketing and e-commerce site in Wordpress." category="Website Design & Development" image="/images/work/career-stylr.jpg" link="https://careerstylr.com.au" />
                     </Column>
                 </StyledWorkWrapper>
             </Section>
@@ -110,8 +111,8 @@ export default function Index() {
 }
 
 const StyledWorkWrapper = styled(Row)`
-margin-bottom: -4rem;
+margin-bottom: -5rem;
 .column {
-    margin-bottom: 4rem;
+    margin-bottom: 5rem;
 }
 `
