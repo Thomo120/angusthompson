@@ -20,7 +20,7 @@ export default function Index() {
 
     return (
         <Layout>
-            <SEO title={`${title} - ${slogan}`} description={theme.siteDetails.description} />
+            <SEO title={`${title} - ${slogan}`} description={theme.siteDetails.description} image="/images/featured-image.jpg" />
             <Section id="hero" variant='contained' bg_color={"#fff"} paddingTop="10vw" paddingBottom="10vw">
                 <Row>
                     <Column md={4} margin_bottom_mobile="2rem">

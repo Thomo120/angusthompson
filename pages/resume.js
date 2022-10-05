@@ -58,7 +58,7 @@ export default function Resume({linkedin}) {
     return (
         <Layout>
             <style>{styles}</style>
-            <SEO title={`${title} - ${slogan}`} description={theme.siteDetails.description} />
+            <SEO title={`${title} - ${slogan}`} description={theme.siteDetails.description} image="/images/featured-image.jpg" />
             <Section paddingTop="5rem" variant='contained' bg_color="#fff">
                 <StyledHeader>
                     <div className="portrait">
