@@ -40,15 +40,6 @@
       "location": "Gold Coast, Queensland, Australia"
     },
     {
-      "name": "APAN ",
-      "position": "Operations Manager",
-      "startDate": "2017-03-31",
-      "endDate": "",
-      "highlights": [],
-      "url": "https://www.linkedin.com/company/apanetwork/",
-      "location": "Gold Coast, Queensland, Australia"
-    },
-    {
       "name": "Genelle",
       "position": "UI/UX Designer & Developer",
       "startDate": "2019-02-28",
@@ -56,6 +47,23 @@
       "highlights": [],
       "url": "",
       "location": "Athens, Greece"
+    },
+    {
+      "name": "TryatHome",
+      "position": "UI / UX Specialist",
+      "startDate": "2022-11-30",
+      "endDate": "2022-12-31",
+      "highlights": [],
+      "url": "https://www.linkedin.com/company/try-home/"
+    },
+    {
+      "name": "APAN ",
+      "position": "Operations Manager",
+      "startDate": "2017-03-31",
+      "endDate": "2022-12-31",
+      "highlights": [],
+      "url": "https://www.linkedin.com/company/apanetwork/",
+      "location": "Gold Coast, Queensland, Australia"
     },
     {
       "name": "Big Red Dog",
@@ -170,27 +178,27 @@
   "publications": [],
   "skills": [
     {
-      "name": "Brand Design",
+      "name": "Adobe XD",
       "level": "",
       "keywords": []
     },
     {
-      "name": "Print Design",
+      "name": "AngularJS",
       "level": "",
       "keywords": []
     },
     {
-      "name": "Social Media Marketing",
+      "name": "Python (Programming Language)",
       "level": "",
       "keywords": []
     },
     {
-      "name": "Social Marketing",
+      "name": "User Interface Design",
       "level": "",
       "keywords": []
     },
     {
-      "name": "King's Christian College",
+      "name": "TryatHome",
       "level": "",
       "keywords": []
     },
@@ -231,6 +239,11 @@
     },
     {
       "name": "PHP",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Print Design",
       "level": "",
       "keywords": []
     },
@@ -285,12 +298,22 @@
       "keywords": []
     },
     {
+      "name": "Brand Design",
+      "level": "",
+      "keywords": []
+    },
+    {
       "name": "Multimedia",
       "level": "",
       "keywords": []
     },
     {
       "name": "Figma (Software)",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Social Marketing",
       "level": "",
       "keywords": []
     },
@@ -320,7 +343,17 @@
       "keywords": []
     },
     {
+      "name": "Jira",
+      "level": "",
+      "keywords": []
+    },
+    {
       "name": "Website Development",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Social Media Marketing",
       "level": "",
       "keywords": []
     },
@@ -336,6 +369,11 @@
     },
     {
       "name": "web3",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Bitbucket",
       "level": "",
       "keywords": []
     },
@@ -367,7 +405,12 @@
     }
   ],
   "interests": [],
-  "references": [],
+  "references": [
+    {
+      "name": "Denver Naidoo",
+      "reference": "I highly recommend Angus for any project that requires a skilled UI/UX specialist. I have had the pleasure of working with Angus and have always been impressed by his ability to create beautiful and user friendly designs.\n\nAngus has an exceptional eye for detail and a deep understanding of user experience principles. He is able to take complex ideas and turn them into simple, elegant designs that are easy for users to understand and navigate. In addition, Angus is a skilled communicator and a pleasure to work with.\n\nI have no hesitation in recommending Angus for any project that requires a talented and experienced UI/UX specialist. Angus will be an asset to any team and will help to ensure the success of any project he is involved in."
+    }
+  ],
   "projects": [],
   "meta": {
     "version": "v1.0.0",

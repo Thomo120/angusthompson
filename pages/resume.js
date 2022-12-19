@@ -41,7 +41,7 @@ export default function Resume({linkedin}) {
     }
 
     //  remove the following skills from the list
-    const remove = ["Social Media Marketing","Social Marketing","King's Christian College"]
+    const remove = ["Social Media Marketing","Social Marketing","Social Media","King's Christian College","TryatHome"]
     const filteredSkills = removeSkills(skills, remove)
 
     // format date
