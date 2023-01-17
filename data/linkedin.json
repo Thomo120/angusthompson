@@ -7,7 +7,7 @@
     "email": "angus@eggcellentstudio.com",
     "phone": "0490118640",
     "url": "",
-    "summary": "",
+    "summary": "I'm Angus, a full-time UI/UX designer and developer with over ten years' worth of expertise. I specialise in designing and developing simple, attractive, and high-converting web and mobile user experiences. I have worked in Web3 and React and am constantly learning new things to make sure I am providing you with the finest service possible.",
     "location": {
       "countryCode": "US",
       "address": "Gold Coast, Australia"
@@ -36,6 +36,7 @@
       "startDate": "2021-05-31",
       "endDate": "",
       "highlights": [],
+      "summary": "As a front-end developer at IO Labs, I design and maintain user interfaces for web applications, including custom PHP e-commerce and web3 projects. I work with backend developers to create visually appealing and user-friendly layouts and ensure that the applications are responsive and accessible across devices.",
       "url": "",
       "location": "Gold Coast, Queensland, Australia"
     },
@@ -45,6 +46,7 @@
       "startDate": "2019-02-28",
       "endDate": "",
       "highlights": [],
+      "summary": "Working at Genelle as a UI/UX designer and front-end developer has been a fulfilling experience. My role includes designing and developing user-friendly interfaces for all their web applications using React, PHP, HTML, CSS, and JavaScript. I work closely with the development team to ensure the designs are functional and meet end-user needs.",
       "url": "",
       "location": "Athens, Greece"
     },
@@ -54,6 +56,7 @@
       "startDate": "2022-11-30",
       "endDate": "2022-12-31",
       "highlights": [],
+      "summary": "As a UI/UX Specialist and front-end developer at Try@Home, a Shopify application, I was part of a team of developers who worked full-time to create a seamless and user-friendly online shopping experience for our customers. I used Adobe XD to design and prototype the interface and Angular to bring those designs to life as a working front-end. Collaborating with my fellow developers was a key aspect of my role, as we strived to create a cohesive and efficient product that exceeded our customers' expectations.",
       "url": "https://www.linkedin.com/company/try-home/"
     },
     {
@@ -62,6 +65,7 @@
       "startDate": "2017-03-31",
       "endDate": "2022-12-31",
       "highlights": [],
+      "summary": "As an all-rounder at APAN, an aesthetics member-based organisation, I utilised my video production, graphic design, website development, and IT skills to support the organisation's mission and objectives. I was instrumental in re-branding the organisation and implementing a new visual identity which enhanced its image and increased brand awareness. Additionally, I built new websites for their members, annual conference and APJ Journal, which greatly improved the user experience for attendees and members. I also live-streamed their conferences each year, which allowed more people to participate and engage with the organisation. Furthermore, I designed marketing materials such as brochures and posters to promote the organisation and its events. I also provided technical support to the team and assisted with any IT-related issues. Overall, my role at APAN was to ensure the smooth running of the organisation through my diverse set of skills and by leveraging my expertise in website development and video production.",
       "url": "https://www.linkedin.com/company/apanetwork/",
       "location": "Gold Coast, Queensland, Australia"
     },
@@ -71,6 +75,7 @@
       "startDate": "2018-03-31",
       "endDate": "2021-03-31",
       "highlights": [],
+      "summary": "I worked as a custom website and WordPress developer at Big Red Dog, developing websites for clients and maintaining existing sites. Additionally, I troubleshooted and solved technical issues on WordPress websites to ensure they ran smoothly. Overall, working at Big Red Dog allowed me to improve my skills and provide valuable services to clients.",
       "url": "https://www.linkedin.com/company/big-red-dog/",
       "location": "Adelaide, South Australia, Australia"
     },
@@ -88,6 +93,7 @@
       "startDate": "2016-03-31",
       "endDate": "2017-03-31",
       "highlights": [],
+      "summary": "As a UI/UX Designer at Checkerplate Software, I designed user-friendly interfaces for various mobile apps. I understood user needs and created intuitive layouts. I worked closely with the development team to ensure designs were correctly implemented and met user needs. I conducted user testing to gather feedback and improve apps. My role at Checkerplate Software allowed me to create engaging and user-friendly mobile apps for clients.",
       "url": "",
       "location": "Brisbane, Queensland, Australia"
     },
@@ -103,7 +109,7 @@
       "name": "King's Christian Centre",
       "position": "Multimedia Designer",
       "startDate": "2011-12-31",
-      "endDate": "2012-09-30",
+      "endDate": "2013-09-30",
       "highlights": [],
       "url": ""
     },
@@ -178,6 +184,11 @@
   "publications": [],
   "skills": [
     {
+      "name": "HTML5",
+      "level": "",
+      "keywords": []
+    },
+    {
       "name": "Adobe XD",
       "level": "",
       "keywords": []
@@ -189,11 +200,6 @@
     },
     {
       "name": "Python (Programming Language)",
-      "level": "",
-      "keywords": []
-    },
-    {
-      "name": "User Interface Design",
       "level": "",
       "keywords": []
     },
@@ -229,6 +235,11 @@
     },
     {
       "name": "HTML",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "User Interface Design",
       "level": "",
       "keywords": []
     },
@@ -406,6 +417,10 @@
   ],
   "interests": [],
   "references": [
+    {
+      "name": "🎯Tom Broadwood",
+      "reference": "I highly recommend Angus for any UI/UX or development position. He is a talented UI/UX Specialist and excellent front-end developer. He was able to pick up Angular very quickly, demonstrating his ability to learn new technologies efficiently. In addition to his technical skills, Angus is an awesome UI designer and has a keen eye for detail. He consistently produces high-quality work. \n\nI have no doubt that he will be a valuable addition to any team. Angus is a fast learner and a pleasure to work with."
+    },
     {
       "name": "Denver Naidoo",
       "reference": "I highly recommend Angus for any project that requires a skilled UI/UX specialist. I have had the pleasure of working with Angus and have always been impressed by his ability to create beautiful and user friendly designs.\n\nAngus has an exceptional eye for detail and a deep understanding of user experience principles. He is able to take complex ideas and turn them into simple, elegant designs that are easy for users to understand and navigate. In addition, Angus is a skilled communicator and a pleasure to work with.\n\nI have no hesitation in recommending Angus for any project that requires a talented and experienced UI/UX specialist. Angus will be an asset to any team and will help to ensure the success of any project he is involved in."
