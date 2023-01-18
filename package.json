@@ -10,7 +10,7 @@
   "dependencies": {
     "@emotion/react": "latest",
     "@emotion/styled": "latest",
-    "next": "12.2.5",
+    "next": "~13.1.2",
     "sass": "latest",
     "react": "latest",
     "react-dom": "latest",
