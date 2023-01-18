@@ -113,6 +113,7 @@ export default function Resume({linkedin}) {
                                     <Typography variant="h6" marginless>{formatDate(exp.startDate)} - {exp.endDate ? formatDate(exp.endDate) : 'Present'}</Typography>
                                     <Typography variant="h4" marginless>{exp.name}</Typography>
                                     <Typography>{exp.position}</Typography>
+                                    <Typography style={{fontSize:'1.6rem'}}>{exp.summary}</Typography>
                                 </StyledItem>
                             ))}
                         </div>

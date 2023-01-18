@@ -72,7 +72,7 @@ background-color: #fff;
                     <SwiperDots className="swiper-pagination" />
                 </Swiper>
             )}
-            {link && <Link href={link}><a className="fullLink" target="_blank"></a></Link>}
+            {link && <Link href={link} className="fullLink" target="_blank"></Link>}
             <StyledTextWrapper>
                 {category && <Typography variant="h6" className="category" color="#fff" style={{marginBottom:'1rem'}}>{category}</Typography>}
                 <Typography variant="h4" color="#fff">{title}</Typography>

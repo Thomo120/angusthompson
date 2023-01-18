@@ -584,7 +584,7 @@ export default function Column({
         }
     }
 
-    const column_link_html = column_link ? <Link href={column_link}><a></a></Link> : null;
+    const column_link_html = column_link ? <Link href={column_link}></Link> : null;
 
 const StyledDiv = styled.div`
     position: relative;

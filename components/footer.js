@@ -17,8 +17,8 @@ export default function Footer({inline, ...props}) {
                 Get in touch
             </Typography>
             <StyledEmail variant="h2" align="center" color={!inline ? "#fff" : 'inherit'}>
-                <Link href="mailto:angus@eggcellentstudio.com">
-                    <a style={{color:'inherit'}}>angus@eggcellentstudio.com</a>
+                <Link href="mailto:angus@eggcellentstudio.com" style={{color:'inherit'}}>
+                    angus@eggcellentstudio.com
                 </Link>
             </StyledEmail>
             <div style={{marginTop: '4rem',textAlign:'center'}}>
