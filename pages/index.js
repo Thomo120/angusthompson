@@ -52,6 +52,9 @@ export default function Index() {
                         <WorkElement featured={true} title="Genelle" description="Developed a multilingual marketing site in Next.js, and designed their fitness & meal plans, dashboard and profile management web apps." category="UI/UX Design & Development" link="https://genelle.com/" type="slider" image={["/images/work/genelle.jpg", "/images/work/genelle-mp.jpg", "/images/work/genelle-fp.jpg", "/images/work/genelle-reports.jpg", "/images/work/genelle-profile.jpg"]} />
                     </Column>
                     <Column md={6}>
+                        <WorkElement title="APAN" description="Rebranded, designed and developed a marketing site in Next.js with a custom Wordpress backend for data and membership dashboard." category="UI/UX Design & Development" image="/images/work/apan.jpg" link="https://apanetwork.com/" />
+                    </Column>
+                    <Column md={6}>
                         <WorkElement title="Everything Shiny" description="Designed and developed a marketing site in Next.js with a custom Wordpress backend for bookings and payments." category="UI/UX Design & Development" image="/images/work/everythingshiny.jpg" link="https://everythingshiny.com.au/" />
                     </Column>
                     <Column md={6}>
