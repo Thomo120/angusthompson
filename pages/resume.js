@@ -11,6 +11,12 @@ import Footer from '@/components/footer'
 import { Description } from '@/lib/constants'
 import Divider from '@/components/divider'
 
+const jobTypes = [
+    'Full-time',
+    'Part-time',
+    'Contract',
+    ]
+
 export default function Resume({linkedin}) {
     const title = 'Resume'
     const slogan = theme.siteDetails.seoTitle
@@ -54,6 +60,22 @@ export default function Resume({linkedin}) {
     function formatMobile(mobile) {
         return mobile.replace(/(\d{4})(\d{3})(\d{3})/, '$1 $2 $3')
     }
+
+    // add job type to experience
+    experience.map((item) => {
+        const jobName = item.name
+        let jobType = '';
+
+        if (jobName.includes('SEDZ') || jobName.includes('IO Labs') || jobName.includes('Genelle') || jobName.includes('Big Red Dog') || jobName.includes('APAN') || jobName.includes('Checkerplate Software') ) {
+            jobType = jobTypes[2]
+        } else if (jobName.includes('TryatHome') ) {
+            jobType = jobTypes[1]
+        }
+
+        item.jobType = jobType
+
+        return item
+    })
 
     return (
         <Layout>
@@ -110,7 +132,12 @@ export default function Resume({linkedin}) {
                             <Typography variant="h5">Experience</Typography>
                             {experience.map((exp, index) => (
                                 <StyledItem key={index} className="experienceItem">
-                                    <Typography variant="h6" marginless>{formatDate(exp.startDate)} - {exp.endDate ? formatDate(exp.endDate) : 'Present'}</Typography>
+                                    <Typography variant="h6" marginless>
+                                        {formatDate(exp.startDate)} - {exp.endDate ? formatDate(exp.endDate) : 'Present'}
+                                        {exp.jobType && (
+                                            <span dangerouslySetInnerHTML={{__html: ' &middot; ' + exp.jobType}} />
+                                        )}
+                                    </Typography>
                                     <Typography variant="h4" marginless>{exp.name}</Typography>
                                     <Typography>{exp.position}</Typography>
                                     <Typography style={{fontSize:'1.6rem'}}>{exp.summary}</Typography>
@@ -118,6 +145,18 @@ export default function Resume({linkedin}) {
                             ))}
                         </div>
                     </Column>
+                </Row>
+                <Divider line_type={"custom_line"} height="1" margin="50" margin_position={'top'} color="rgba(0,0,0,0.1)" />
+            </Section>
+            <Section paddingBottom="5rem" variant='contained' bg_color="#fff">
+                <Typography variant="h5" align="center">Recommendations</Typography>
+                <Row>
+                    {linkedin?.references.map((reference, index) => (
+                        <Column md={6} key={index} margin_bottom_mobile={index === 0 ? '4rem' : 0}>
+                            <Typography>{reference.reference}</Typography>
+                            <Typography variant="h6" marginless>{reference.name}</Typography>
+                        </Column>
+                    ))}
                 </Row>
             </Section>
             <Footer />
@@ -180,6 +219,7 @@ const styles = `
 // Fetching data from the JSON file
 import fsPromises from 'fs/promises';
 import path from 'path'
+import React from "react";
 
 export async function getStaticProps() {
     const linkedin = JSON.parse(await fsPromises.readFile(path.join(process.cwd(), 'data/linkedin.json')));

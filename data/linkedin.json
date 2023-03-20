@@ -51,6 +51,15 @@
       "location": "Athens, Greece"
     },
     {
+      "name": "SEDZ PTY LTD",
+      "position": "UI/UX Designer and Developer",
+      "startDate": "2023-02-28",
+      "endDate": "2023-03-31",
+      "highlights": [],
+      "url": "",
+      "location": "Australia"
+    },
+    {
       "name": "TryatHome",
       "position": "UI / UX Specialist",
       "startDate": "2022-11-30",
@@ -184,27 +193,32 @@
   "publications": [],
   "skills": [
     {
-      "name": "HTML5",
+      "name": "AI",
       "level": "",
       "keywords": []
     },
     {
-      "name": "Adobe XD",
+      "name": "React",
       "level": "",
       "keywords": []
     },
     {
-      "name": "AngularJS",
+      "name": "Amazon S3",
       "level": "",
       "keywords": []
     },
     {
-      "name": "Python (Programming Language)",
+      "name": "Amazon Cognito",
       "level": "",
       "keywords": []
     },
     {
       "name": "TryatHome",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Python (Programming Language)",
       "level": "",
       "keywords": []
     },
@@ -259,7 +273,17 @@
       "keywords": []
     },
     {
+      "name": "Next.js",
+      "level": "",
+      "keywords": []
+    },
+    {
       "name": "Video Production",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Redux",
       "level": "",
       "keywords": []
     },
@@ -319,6 +343,11 @@
       "keywords": []
     },
     {
+      "name": "HTML5",
+      "level": "",
+      "keywords": []
+    },
+    {
       "name": "Figma (Software)",
       "level": "",
       "keywords": []
@@ -335,6 +364,11 @@
     },
     {
       "name": "Front-End Development",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Adobe XD",
       "level": "",
       "keywords": []
     },
@@ -395,6 +429,11 @@
     },
     {
       "name": "SASS",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "AngularJS",
       "level": "",
       "keywords": []
     },
