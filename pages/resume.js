@@ -149,7 +149,8 @@ export default function Resume({linkedin}) {
                 <Divider line_type={"custom_line"} height="1" margin="50" margin_position={'top'} color="rgba(0,0,0,0.1)" />
             </Section>
             <Section paddingBottom="5rem" variant='contained' bg_color="#fff">
-                <Typography variant="h5" align="center">Recommendations</Typography>
+                <Typography variant="h5" align="center" marginless>Recommendations</Typography>
+                <Typography align="center" style={{fontSize: '1.4rem'}}>Verified from LinkedIn</Typography>
                 <Row>
                     {linkedin?.references.map((reference, index) => (
                         <Column md={6} key={index} margin_bottom_mobile={index === 0 ? '4rem' : 0}>
