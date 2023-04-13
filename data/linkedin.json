@@ -7,7 +7,7 @@
     "email": "angus@eggcellentstudio.com",
     "phone": "0490118640",
     "url": "",
-    "summary": "I'm Angus, a full-time UI/UX designer and developer with over ten years' worth of expertise. I specialise in designing and developing simple, attractive, and high-converting web and mobile user experiences. I have worked in Web3 and React and am constantly learning new things to make sure I am providing you with the finest service possible.",
+    "summary": "I'm Angus, a full-time UI/UX designer and developer with over a decade's worth of expertise. I specialise in designing and developing simple, attractive, and high-converting web and mobile user experiences. I have worked on Web3 and AI projects with React and am constantly learning new things to make sure I am providing you with the finest service possible.",
     "location": {
       "countryCode": "US",
       "address": "Gold Coast, Australia"
@@ -41,23 +41,24 @@
       "location": "Gold Coast, Queensland, Australia"
     },
     {
-      "name": "Genelle",
-      "position": "UI/UX Designer & Developer",
-      "startDate": "2019-02-28",
-      "endDate": "",
-      "highlights": [],
-      "summary": "Working at Genelle as a UI/UX designer and front-end developer has been a fulfilling experience. My role includes designing and developing user-friendly interfaces for all their web applications using React, PHP, HTML, CSS, and JavaScript. I work closely with the development team to ensure the designs are functional and meet end-user needs.",
-      "url": "",
-      "location": "Athens, Greece"
-    },
-    {
       "name": "SEDZ PTY LTD",
       "position": "UI/UX Designer and Developer",
       "startDate": "2023-02-28",
       "endDate": "2023-03-31",
       "highlights": [],
+      "summary": "During my time working at SEDZ/Techzeli Technologies, I had the opportunity to work on an AI-powered web application. This experience was both challenging and rewarding, as I worked to create a visually appealing and user-friendly interface that effectively communicated the message and brand identity.\n\nAs a designer, I was responsible for creating the branding materials and ensuring that they were consistent across all platforms and applications. As a front-end developer, I utilised my technical skills in React/Next.js to implement the user interface and create an engaging digital experience for users. Finally, as a UI/UX specialist, I focused on ensuring that the user experience was intuitive and engaging, incorporating design principles that prioritised user needs and preferences.",
       "url": "",
       "location": "Australia"
+    },
+    {
+      "name": "Genelle",
+      "position": "UI/UX Designer & Developer",
+      "startDate": "2019-02-28",
+      "endDate": "2023-02-28",
+      "highlights": [],
+      "summary": "Working at Genelle as a UI/UX designer and front-end developer was a fulfilling experience. My role included designing and developing user-friendly interfaces for all their web applications using React, PHP, HTML, CSS, and JavaScript. I worked closely with the development team to ensure the designs are functional and met end-user needs.",
+      "url": "",
+      "location": "Athens, Greece"
     },
     {
       "name": "TryatHome",
